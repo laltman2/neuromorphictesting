@@ -11,8 +11,10 @@ Make sure that you're connected to an arduino (I used UNO). Then upload the code
 
 ### b. Open Test_Comms.ipynb. Input the correct seiral port. 
 
-You can find the correct serial port path for Macs with the code below. 
+You can find the serial port for Mac with the terminal command below. 
 ```
 ls /dev/tty.*
 ```
 Then run everything. 
+
+Associated with the University of Pennsylvania. 
