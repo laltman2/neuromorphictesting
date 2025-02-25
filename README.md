@@ -17,4 +17,23 @@ ls /dev/tty.*
 ```
 Then run everything. 
 
+## Parameters
+
+Parameters for the physical learning network: 
+
+```
+//Physical Leanring Parameters 
+int ETA; // eta 
+int GMN; // Gmin 
+int ALF; // alpha (learning step time) in microseconds
+int EPO; // number of epochs
+int MES; // number of measurement steps
+int NMS; // number of times to take each measurement
+int NSR; // number sources
+int NTR; // number targets 
+int NEG; // number of edges
+int NDR; // number train data points
+int NDS; // number of test data points
+```
+
 Associated with the University of Pennsylvania. 
